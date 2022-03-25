@@ -1,25 +1,25 @@
 import "./sidebar.css";
 import SidebarLink from "./SidebarLink";
 
-import HomeIcon from "@material-ui/icons/Android";
-import SearchIcon from "@material-ui/icons/Spa";
-import NotificationsNoneIcon from "@material-ui/icons/NotificationsNone";
-import MailOutlineIcon from "@material-ui/icons/MailOutline";
-import BookmarkBorderIcon from "@material-ui/icons/BookmarkBorder";
+import HomeIcon from "@material-ui/icons/FilterVintage";
+import SearchIcon from "@material-ui/icons/GitHub";
+import NotificationsNoneIcon from "@material-ui/icons/Brightness7";
+import MailOutlineIcon from "@material-ui/icons/Android";
+import BookmarkBorderIcon from "@material-ui/icons/Reddit";
 import ListAltIcon from "@material-ui/icons/Pets";
-import PermIdentityIcon from "@material-ui/icons/PermIdentity";
-import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
-import BookmarkBorderOutlinedIcon from '@material-ui/icons/BookmarkBorderOutlined';
-import ListAltOutlinedIcon from '@material-ui/icons/ListAltOutlined';
-import ChatOutlinedIcon from '@material-ui/icons/ChatOutlined';
-import OfflineBoltOutlinedIcon from '@material-ui/icons/OfflineBoltOutlined';
-import PostAddOutlinedIcon from '@material-ui/icons/PostAddOutlined';
-import CallMadeOutlinedIcon from '@material-ui/icons/CallMadeOutlined';
-import BarChartOutlinedIcon from '@material-ui/icons/BarChartOutlined';
-import SettingsOutlinedIcon from '@material-ui/icons/SettingsOutlined';
-import HelpOutlineOutlinedIcon from '@material-ui/icons/HelpOutlineOutlined';
-import BrushOutlinedIcon from '@material-ui/icons/BrushOutlined';
-import AccessibilityNewOutlinedIcon from '@material-ui/icons/AccessibilityNewOutlined';
+import PermIdentityIcon from "@material-ui/icons/BugReport";
+import MoreHorizIcon from "@material-ui/icons/BeachAccess";
+import BookmarkBorderOutlinedIcon from '@material-ui/icons/EmojiEmotions';
+import ListAltOutlinedIcon from '@material-ui/icons/FavoriteBorder';
+import ChatOutlinedIcon from '@material-ui/icons/Flare';
+import OfflineBoltOutlinedIcon from '@material-ui/icons/Spa';
+import PostAddOutlinedIcon from '@material-ui/icons/Palette';
+import CallMadeOutlinedIcon from '@material-ui/icons/LocalBar';
+import BarChartOutlinedIcon from '@material-ui/icons/Fingerprint';
+import SettingsOutlinedIcon from '@material-ui/icons/LocalFlorist';
+import HelpOutlineOutlinedIcon from '@material-ui/icons/BubbleChart';
+import BrushOutlinedIcon from '@material-ui/icons/AcUnit';
+import AccessibilityNewOutlinedIcon from '@material-ui/icons/InsertEmoticon';
 import { Button } from "@material-ui/core";
 import {useState} from 'react'
 import Menu from '@material-ui/core/Menu';
@@ -59,10 +59,8 @@ function Sidebar(){
         <SidebarLink text="César 😎" Icon={BookmarkBorderIcon} />
         <SidebarLink text="Sophie 😏" Icon={ListAltIcon} />
         <SidebarLink text="Raton²" Icon={PermIdentityIcon} />
+        <SidebarLink text="Simon :)" Icon={MoreHorizIcon} />
         <Button onClick={handleClick} id="moreLinks">
-        <MoreHorizIcon/> Simon :)
-        </Button>
-        <Button id="tweet">
             🦋 A2Stup 🦋
         </Button>
         <Menu
